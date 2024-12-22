@@ -1,0 +1,309 @@
+img {
+    width: 100%;
+    display: block;
+
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+}
+
+body {
+    color: #bfc1c8;
+    font-family: "Roboto", "Open Sans", sans-serif;
+    text-transform: capitalize;
+    overflow: auto;
+    background-color: #3f3f3f;
+}
+input{
+    text-transform: capitalize;
+}
+/* .light-mode{
+    background-color: white;
+    color: black;
+} */
+.nav-light{
+    background-color: aliceblue;
+}
+/* ------------------------------------------------ */
+.navbar {
+    background-color: #444444;
+    
+}
+
+.navbar-collapse .navbar-nav {
+    width: 80%;
+}
+
+.navbar .navbar-brand .nav-logo {
+    width: 70px;
+}
+
+.navbar .navbar-brand .nav-name {
+    font-size: .8rem;
+}
+
+.navbar .nav-link {
+    color: white;
+    transition: .6;
+    border-radius: 20px;
+    border-color: #383838;
+    color: #bfc1c8;
+
+
+}
+
+.navbar .nav-item {
+
+    width: 17%;
+    text-align: center;
+
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:hover {
+    color: #bfc1c8;
+    border: 2px solid;
+    padding: 5px 15px;
+
+}
+
+/* ------------------------ */
+.weather {
+    background-image: linear-gradient(#383838 0%, #9E9E9E 100%);
+    margin-top: 1px;
+    position: relative;
+    top: 50%;
+    width: 70%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
+    padding: 40px;
+    border-radius: 10px;
+
+}
+.weather .item{
+    box-shadow: 10px 10px 4px 0px #2a2a2a;
+}
+.weather form {
+    width: 90%;
+    text-align: center;
+    position: relative;
+}
+
+.weather form input[type="search"] {
+    width: 80%;
+    border: none;
+    border-radius: 25px;
+    padding: 15px 10px;
+    background: #2a2a2a;
+    color: #bfc1c8;
+
+}
+
+.weather form input[type="search"]:focus {
+    outline: none;
+}
+
+.weather form input[type="button"] {
+    position: absolute;
+    right: 11%;
+    top: 6px;
+    border: none;
+    padding: 8px 40px;
+    border-radius: 18px;
+    color: #2a2a2a;
+    background: #bfc1c8;
+    transition: .6s;
+}
+.weather form input[type="button"]:hover{
+    background: #8b8a8a;
+}
+.mode{
+    width: 8%;
+    border-radius: 12px;
+    height: 20px;
+    background-color: #2a2a2a;
+    cursor: pointer;
+}
+.mode .mode-change{
+    width: 50%;
+    background-color: #8b8a8a;
+    height: 19px;
+    transition: .6s;
+    border-radius: 12px;
+}
+.weather .weather-days {
+    position: relative;
+    
+    
+    border-radius: 8px;
+}
+
+.weather .weather-days .item {
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #444444;
+    color: white;
+}
+
+.weather .weather-days .item .stutus img {
+    width: 20px;
+}
+
+.weather .weather-days .item .stutus {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 6px;
+    padding: 5px 12px;
+    margin: 10px 0;
+}
+
+.weather .weather-days .item .date {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.weather .weather-days .item .date {
+    padding: 8px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.weather .weather-days .item .location {
+    margin: 15px 5px;
+    font-size: 18px;
+}
+
+.weather .weather-days .item1 .degree {
+    font-weight: bolder;
+    font-size: 4rem;
+    padding: 8px;
+}
+
+.weather .weather-days .item .cutom {
+    color: #009ad8;
+}
+
+.weather .weather-days .item1 .stutus {
+    display: flex;
+    gap: 10px;
+
+}
+
+.weather .weather-days .item2 {
+    
+    height: 100%;
+}
+
+/* ----------------------------------- */
+footer {
+    margin-top: 34px;
+    background-color: #383838;
+}
+
+footer form {
+    margin: 20px;
+    text-align: center;
+    position: relative;
+
+}
+
+footer form input[type="search"] {
+    width: 80%;
+    border: none;
+    border-radius: 25px;
+    padding: 15px 10px;
+    background: #2a2a2a;
+    color: white;
+    transition: .6s;
+
+}
+footer form input[type="button"]:hover{
+    background: #8b8a8a;
+}
+footer form input[type="search"]:focus {
+    outline: none;
+}
+
+footer form input[type="button"] {
+    position: absolute;
+    right: 11%;
+    top: 6px;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 18px;
+    color: #2a2a2a;
+    background: #bfc1c8;
+    transition: .6s;
+}
+
+footer .icons a {
+    color: #9E9E9E;
+    font-size: 22px;
+    margin: 0 5px;
+    border-radius: 50%;
+    padding: 7px 8px;
+    transition: .6s;
+    
+}
+
+footer .icons a:hover {
+    background-color: #2a2a2a;
+    color: white;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------------------------------------------- */
+@media all and (max-width:998px) {
+    .weather{
+        padding: 5px;
+    }
+    .weather form input[type="button"],
+    footer form input[type="button"]{
+        padding: 5px 10px;
+        top: 10px;
+        right: 5%;
+        
+    }
+    .weather form input[type="search"],
+    footer form input[type="search"]{
+        padding: 15px;
+        width: 100%;
+    }
+    .navbar .nav-item{
+        width: 100%;
+    }
+}

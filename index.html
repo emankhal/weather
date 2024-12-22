@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-xl">
+        <div class="container p-3">
+            <a class="navbar-brand d-flex align-items-center justify-content-center gap-2 text-white" href="#">
+                <div class="nav-logo">
+                    <img src="images/logo@2x.png" alt="logo">
+                </div>
+                <div class="nav-name text-center ">
+                    <span>Weather</span>
+                    <p class="mb-0">tagline goes here</p>
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars text-white"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-center justify-content-between w-75">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">news</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">live cameras</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">photos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <div class="weather  ">
+            <div class="container-lg">
+                <div class="form d-flex justify-content-between align-items-center">
+                    <!-- <div class="mode">
+                        <div class="mode-change"></div>
+                    </div> -->
+                    <form action="">
+                        <input type="search" name="search" id="search" placeholder="find your location" autocomplete="off">
+                        <input type="button" id="submit" value="find">
+                    </form>
+                   
+                </div>
+               
+                <div class="weather-days">
+                    <div class="row ">
+                        <div class="col-lg-4 col-12 g-3">
+                            <div class="item item1">
+                                <div class="date">
+                                    <div class="day">
+                                        <span>sunday</span>
+                                    </div>
+                                    <div class="month">
+                                        <span>21march</span>
+                                    </div>
+                                </div>
+                                <div class="location">
+                                    <span>cairo</span>
+                                </div>
+                                <div class="degree">
+                                    <span>
+                                        14.5C
+                                    </span>
+                                </div>
+                                <div class="cutom d-flex align-items-center justify-content-between">
+                                    clear
+                                    <div class="img">
+                                        <img src="images/302.png" alt="icone" class="w-50">
+                                    </div>
+                                </div>
+
+                                <div class="stutus">
+                                    <div class="row">
+                                        <div class="col-lg-4 col-12">
+                                            <span class="d-flex align-items-center justify-content-center gap-2">
+                                                <img src="images/icon-umberella.png" alt="icone">
+                                                <span>20%</span>
+                                            </span>
+                                        </div>
+                                        <div class="col-lg-4 col-12">
+                                            <span class="d-flex align-items-center justify-content-center gap-2 ">
+                                                <img src="images/icon-wind.png" alt="icone" >
+                                                <span>18km/h</span>
+                                            </span>
+                                        </div>
+                                        <div class="col-lg-4 col-12">
+                                            <span class="d-flex align-items-center justify-content-center gap-2">
+                                                <img src="images/icon-compass.png" alt="icone">
+                                                <span>east</span>
+                                            </span>
+                                        </div>
+
+                                    </div>
+
+
+
+
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-4 col-12 g-3">
+                            <div class="item item2 text-center d-flex flex-column justify-content-between">
+                                <div class="date text-center d-block ">
+                                    <div class="day text-center">
+                                        <span>monday</span>
+                                    </div>
+                                </div>
+                                <div class="degree d-flex flex-column my-4 ">
+                                    <span class="fs-2 text-white mt-3">
+                                        14.5C
+                                    </span>
+                                    <span>
+                                        12.9o
+                                    </span>
+                                </div>
+                                <div class="cutom d-flex align-items-center justify-content-between">
+                                    clear
+                                    <div class="img">
+                                        <img src="images/302.png" alt="icone" class="w-50">
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-4 col-12 g-3">
+                            <div class="item item3 text-center h-100 d-flex flex-column justify-content-between">
+                                <div class="date text-center d-block">
+                                    <div class="day">
+                                        <span>tuesday</span>
+                                    </div>
+                                </div>
+                                <div class="degree d-flex flex-column my-4">
+                                    <span class="fs-2 text-white mt-3">
+                                        14.5C
+                                    </span>
+                                    <span>
+                                        12.9o
+                                    </span>
+                                </div>
+                                <div class="cutom d-flex align-items-center justify-content-between">
+                                    clear
+                                    <div class="img">
+                                        <img src="images/302.png" alt="icone" class="w-50">
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-12 g-3">
+                            <div class="item4 item">
+                                <h2 class="text-center">Hourly Forecast:</h2>
+                                <div class="row overflow-auto ">
+                                    <div class="col">
+                                        <div class="hour-foreset d-flex justify-content-between align-items-center flex-column bg-gradient rounded-5 p-4">
+                                            <div class="hour">
+                                                <span>12:00</span>
+                                            </div>
+                                            <div class="icone w-50">
+                                                <img src="images/353.png" alt="icone">
+                                            </div>
+                                            <div class="wind">
+                                                <span>22C</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="hour-foreset d-flex justify-content-between align-items-center flex-column bg-gradient rounded-5 p-4">
+                                            <div class="hour">
+                                                <span>12:00</span>
+                                            </div>
+                                            <div class="icone w-50">
+                                                <img src="images/353.png" alt="icone">
+                                            </div>
+                                            <div class="wind">
+                                                <span>22C</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="hour-foreset d-flex justify-content-between align-items-center flex-column bg-gradient rounded-5 p-4">
+                                            <div class="hour">
+                                                <span>12:00</span>
+                                            </div>
+                                            <div class="icone w-50">
+                                                <img src="images/353.png" alt="icone">
+                                            </div>
+                                            <div class="wind">
+                                                <span>22C</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="hour-foreset d-flex justify-content-between align-items-center flex-column bg-gradient rounded-5 p-4">
+                                            <div class="hour">
+                                                <span>12:00</span>
+                                            </div>
+                                            <div class="icone w-50">
+                                                <img src="images/353.png" alt="icone">
+                                            </div>
+                                            <div class="wind">
+                                                <span>22C</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="hour-foreset d-flex justify-content-between align-items-center flex-column bg-gradient rounded-5 p-4">
+                                            <div class="hour">
+                                                <span>12:00</span>
+                                            </div>
+                                            <div class="icone w-50">
+                                                <img src="images/353.png" alt="icone">
+                                            </div>
+                                            <div class="wind">
+                                                <span>22C</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="footer ">
+                <div class="row">
+                    <div class="col-lg-9 col-12">
+                        <form action="">
+                            <input type="search" name="search" id="search"
+                                placeholder="Enter your email to subscribe...">
+                            <input type="button" id="submit" value="subscribe" autocomplete="off">
+                        </form>
+                    </div>
+                    <div class="col-lg-3 col-12">
+                        <div class="icons position-relative top-50 translate-middle-y text-center">
+                            <a href=""><i class="fa-brands fa-facebook"></i></a>
+                            <a href=""><i class="fa-brands fa-instagram"></i></a>
+                            <a href=""><i class="fa-brands fa-twitter"></i></a>
+                            <a href=""><i class="fa-brands fa-google-plus-g"></i></i></a>
+                        </div>
+                    </div>
+                    <p class="text-center my-3">Copyright 2014 Company name. Designed by Themezy. All rights reserved
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
